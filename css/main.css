@@ -1,0 +1,48 @@
+
+.ex{width:180px;}
+.pbar .ui-progressbar-value {display:block !important}
+.pbar {overflow: hidden}
+.pbar2 .ui-progressbar-value {display:block !important}
+.pbar2 {overflow: hidden}
+.pbar3 .ui-progressbar-value {display:block !important}
+.pbar3 {overflow: hidden}
+.pbar4 .ui-progressbar-value {display:block !important}
+.pbar4 {overflow: hidden}
+.pbar5 .ui-progressbar-value {display:block !important}
+.pbar5 {overflow: hidden}
+
+.pbar7 .ui-progressbar-value {display:block !important}
+.pbar7 {overflow: hidden}
+.pbar8 .ui-progressbar-value {display:block !important}
+.pbar8 {overflow: hidden}
+.pbar9 .ui-progressbar-value {display:block !important}
+.pbar9 {overflow: hidden}
+.pbar10 .ui-progressbar-value {display:block !important}
+.pbar10{overflow: hidden}
+
+.pbar11 .ui-progressbar-value {display:block !important}
+.pbar11 {overflow: hidden}
+.pbar12 .ui-progressbar-value {display:block !important}
+.pbar12{overflow: hidden}
+
+.pbar13 .ui-progressbar-value {display:block !important}
+.pbar13 {overflow: hidden}
+.pbar14 .ui-progressbar-value {display:block !important}
+.pbar14{overflow: hidden}
+.pbar15 .ui-progressbar-value {display:block !important}
+.pbar15 {overflow: hidden}
+.pbar16 .ui-progressbar-value {display:block !important}
+.pbar16{overflow: hidden}
+
+.pbar17 .ui-progressbar-value {display:block !important}
+.pbar17{overflow: hidden}
+.pbar18 .ui-progressbar-value {display:block !important}
+.pbar18 {overflow: hidden}
+.pbar19 .ui-progressbar-value {display:block !important}
+.pbar19{overflow: hidden}
+.pbar20 .ui-progressbar-value {display:block !important}
+.pbar20 {overflow: hidden}
+.pbar21 .ui-progressbar-value {display:block !important}
+.pbar21{overflow: hidden}
+
+.elapsed {position:relative;text-align: right;}

@@ -1,0 +1,92 @@
+<!--{{feedbacks}}-->
+
+<!--<ul>-->
+    <!--<li ng-repeat="feedback in feedbacks">-->
+        <!--{{feedback}}-->
+
+
+
+        <!--<br/>-->
+    <!--</li>-->
+<!--</ul>-->
+<div ng-show="loading">
+    <loading-directive></loading-directive>
+</div>
+
+<div ng-hide="loading" class="container">
+
+    <div class="row">
+
+        <div class="col-xs-4">
+            <h3>Page {{ currentPage }}</h3>
+        </div>
+        <div class="col-xs-5">
+
+        </div>
+        <!--<div class="col-xs-3">-->
+            <!--<br/>-->
+            <!--<input ng-model="q" id="search2" class="form-control" placeholder="Filter text" style="width:90%;">-->
+        <!--</div>-->
+
+        <!--<div class="col-xs-4">-->
+        <!--items per page:-->
+        <!--<select name="pageSize" id="sortOrder" ng-model="pageSize">-->
+        <!--<option value="10">10</option>-->
+        <!--<option value="15">15</option>-->
+        <!--<option value="25">25</option>-->
+        <!--<option value="50">50</option>-->
+        <!--<option value="100">100</option>-->
+        <!--</select>-->
+
+        <!--&lt;!&ndash;<input type="number" min="1" max="100"  ng-model="pageSize" maxlength="4" size="4">&ndash;&gt;-->
+        <!--</div>-->
+    </div>
+    <br>
+        <!--<ul style="list-style-type: none;">-->
+
+
+    <div class="row">
+
+            <div class="row feedbackHeading">
+                <div class="col-md-2"><strong>Score</strong></div>
+                <div class="col-md-6"><strong>Feedback</strong></div>
+                <div class="col-md-2"><strong>From</strong></div>
+                <div class="col-md-2"><strong>When</strong></div>
+
+
+            </div>
+
+            <div class="col-md-12" dir-paginate="feedback in feedbacks | filter:q|itemsPerPage:pageSize" current-page="currentPage" >
+
+                <div class="row">
+                    <div class="col-md-2">
+                        <img src="{{feedback.feedbackType|posNegFilter}}">
+                        (
+                        {{feedback.score|number:0}}
+                        <img src="{{feedback.score|scoreStarFilter}}">
+                        )
+                    </div>
+                    <div class="col-md-6">
+                        <b>{{feedback.comment}}</b><br/>
+                        {{feedback.itemTitle}}
+                    </div>
+                    <div class="col-md-2">
+                        {{feedback.commentingUser}}
+                    </div>
+                    <div class="col-md-2">
+                        {{feedback.commentTime|prettyDate}}
+                    </div>
+                </div>
+                <hr/>
+
+            </div>
+
+            <!--</ul>-->
+        </div>
+
+    <div class="text-center">
+        <dir-pagination-controls boundary-links="true" on-page-change="pageChangeHandler(newPageNumber)" template-url="dirPagination.tpl.html"></dir-pagination-controls>
+    </div>
+</div>
+
+</div>

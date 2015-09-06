@@ -1,0 +1,20 @@
+#methodHeading{
+    font-family:GE Inspira;
+    color:#FFFFFF;
+    font-size:22px;
+    position:relative;bottom:-5px;
+    display: inline-block;
+    left:10px;
+
+}
+
+#imgalert{float:right;position:relative;bottom:0px;left:5px;display:none;height:25px;width:40px}
+
+#instrumentName{
+    position:relative;bottom:38px;left:12px;font-family:Lucida Grande;color:#EBEBEB;font-size:11px;width:200px;cursor:pointer
+}
+
+.methodName{
+    font-weight:bold;
+    font-size:1.5em;
+}

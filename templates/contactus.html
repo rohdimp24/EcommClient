@@ -1,0 +1,75 @@
+
+<div class="container">
+    <div class="row">
+
+        <div class="col-md-4">
+            <div>
+                <h2>MyGann</h2><br/>
+                PO Box 1431<br/>
+                Chino Hills, CA 91708<br/>
+                Fax	: 1-909-680-3203<br/>
+                E-mail	: <b>esale@mygann.com</b>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8">
+            <div id="map"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-5">
+            <form>
+                <div class="form-group">
+                    <label for="contact_name">Enter your Name</label><br/>
+                    <input type="text" class="form-control" id="contact_name" ng-model="username" placeholder="your name" style="width: 250px">
+                </div>
+                <div class="form-group">
+                    <label for="contact_email">Enter your email</label><br/>
+                    <input type="email" class="form-control" id="contact_email" ng-model="from" placeholder="Your@email.com" style="width: 250px">
+                </div>
+                <div class="form-group">
+                    <label for="messateTxt">Enter your message</label><br/>
+                    <textarea name="messateTxt" id="messateTxt" ng-model="message" rows="10" style="width: 300px"></textarea>
+                </div>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" ng-model="isCopySend"> E-mail a copy of this message to your own address.
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-success" ng-click="sendMail()">Submit</button>
+            </form>
+        </div>
+
+
+    </div>
+
+
+</div>
+
+
+
+<br/>
+<br/>
+
+
+        <!--<div id="contactForm">-->
+            <!--<form>-->
+            <!--<label id="contact_namelbl" for="contact_name">Enter your Name </label>-->
+
+            <!--<input type="text" id="contact_name">-->
+            <!--<label id="contact_emailmsg" for="contact_email">Enter your Email </label>-->
+            <!--<input type="text" id="contact_email">-->
+            <!--<textarea name="messateTxt" id="messateTxt" rows="10" cols="60"></textarea>-->
+            <!--<input type="checkbox" value="copyMail" name="copyOfmail" id="copyOfmail">-->
+            <!--<label for="contact_email_copy">E-mail a copy of this message to your own address.</label>-->
+            <!--</form>-->
+
+        <!--</div>-->
+
+<!--<div id="class" ng-repeat="marker in markers | orderBy : 'title'">-->
+    <!--<a href="#" ng-click="openInfoWindow($event, marker)">{{marker.title}}</a>-->
+<!--</div>-->
+
+
+

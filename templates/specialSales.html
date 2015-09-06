@@ -1,0 +1,54 @@
+<!--<div class="container" ng-show="loading">-->
+    <!--<div class="row">-->
+        <!--<div class="col-md-4">-->
+
+        <!--</div>-->
+        <!--<div class="col-md-4">-->
+
+            <!--<img src="images/small.gif" />-->
+            <!--<p>...Fetching data....</p>-->
+        <!--</div>-->
+    <!--</div>-->
+
+<!--</div>-->
+
+<!-- need to put the loading variable-->
+<div ng-show="loading">
+    <loading-directive></loading-directive>
+</div>
+
+<div ng-hide="loading" class="container">
+
+
+
+    <div class="row" style="margin-left: 20px">
+        <div class="col-xs-8">
+            <h3>Products Page: {{ currentPage }}</h3>
+        </div>
+        <div class="col-xs-4">
+            <input ng-model="q" id="search2" class="form-control" placeholder="Filter text" >
+        </div>
+        <!--<div class="col-xs-4">-->
+        <!--<label for="search">items per page:</label>-->
+        <!--<input type="number" min="1" max="100" class="form-control" ng-model="pageSize">-->
+        <!--</div>-->
+    </div>
+    <br>
+    <div class="row">
+        <div class="panel-body container">
+            <!--<ul style="list-style-type: none;">-->
+            <div class="row">
+                <div class="col-md-4 itemContainer" dir-paginate="item in items | filter:q | itemsPerPage: pageSize" current-page="currentPage">
+
+                    <product-directive item="item"></product-directive>
+                </div>
+                <!--</ul>-->
+            </div>
+        </div>
+        <div class="text-center">
+            <dir-pagination-controls boundary-links="true" on-page-change="pageChangeHandler(newPageNumber)" template-url="dirPagination.tpl.html"></dir-pagination-controls>
+        </div>
+    </div>
+</div>
+
+

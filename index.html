@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html ng-app="app" >
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>mygann</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- For third-generation iPad with high-resolution Retina display: -->
+    <!--<link rel="apple-touch-icon-precomposed" sizes="144x144" href="css/favicon/favicon-144px.png">-->
+
+    <!-- For iPhone with high-resolution Retina display: -->
+    <!--<link rel="apple-touch-icon-precomposed" sizes="114x114" href="css/favicon/favicon-114px.png">-->
+
+    <!-- For first- and second-generation iPad: -->
+    <!--<link rel="apple-touch-icon-precomposed" sizes="72x72" href="css/favicon/favicon-72px.png">-->
+
+    <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+    <!--<link rel="apple-touch-icon-precomposed" href="css/favicon/favicon.png">-->
+
+    <!--<link rel="icon" href="css/favicon/favicon.ico">-->
+    <link href="css/iids.css" rel="stylesheet" type="text/css">
+    <link href="css/responsive_2.css" rel="stylesheet" type="text/css">
+
+    <link href="css/jquery-ui-1.8.16.custom.css" rel="stylesheet" type="text/css"/>
+    <link href="css/main_new.css" rel="stylesheet" type="text/css" />
+    <link href="css/unicorn.css" rel="stylesheet" type="text/css" />
+
+    <link rel="stylesheet" href="css/idangerous.swiper.css">
+
+    <link rel="Stylesheet" href="css/default.css" type="text/css" media="screen" />
+    <link rel="Stylesheet" href="css/virgellesDefault.css" type="text/css" media="screen" />
+
+
+    <style>
+        .names{ font-weight:Regular;}
+        @font-face
+        {
+            font-family: GE Inspira;
+            /*src: url(fonts/GEInspiraReg.TTF);*/
+        }
+        @font-face
+        {
+            font-family: Lucida Grande;
+            /*src: url(fonts/Lucida Grande.TTF);*/
+        }
+        html, body {
+            max-width: 100%;
+            overflow-x: hidden;
+        }
+
+    </style>
+    <script type="text/javascript" src="lib/jquery-1.6.2.min.js"></script>
+    <script type="text/javascript" src="lib/jquery-ui-1.8.16.custom.min.js"></script>
+
+
+
+    <title></title>
+</head>
+<body ng-app="app">
+<!--
+<body ng-controller="mainController">
+<div class="navbar navbar-static-top">
+    <div class="navbar-inner" style="height:42px">
+        <div class="container" style="height:30px;text-align: center;">
+            <div id="methodHeading">UNICORN SIMULATOR CONTROL </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="container content">
+    <div class="page-header voice voice-brand">
+    </div>
+
+    <div class="row">
+        <section class="module span4 " style="height: 570px">
+            <header class="module-header" style="margin:1px">
+                <p style="" class="methodName">Configure the UNICORN server</p>
+
+            </header><br>
+
+            <div class="module-body" style="">
+                <div>
+                    <label>Enter the Method Name</label>
+                    <input style="" name="txtMethodName" class="span2" type="text" value="{{methodName}}" ng-model="methodName">
+                    <br/>
+                    <label>Enter Sample Injection Time (min)</label>
+                    <input style="" name="txtInjection" class="span2" type="text" value="{{injectionTime}}" ng-model="injectionTime">
+                    <br/>
+                    <label>Enter Total Experiment Time(min)</label>
+                    <input style="" name="txtTotal" class="span2" type="text" value="{{totalExpTime}}" ng-model="totalExpTime">
+
+                    <div>
+                        <button id="btnConfigureSerer" class="btn-success" ng-click="configureServer()">Configure Server</button>
+
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="module span4 " style="height: 570px">
+            <header class="module-header" style="margin:1px">
+                <p style="" class="methodName">Control Simulator</p>
+
+            </header><br>
+
+            <div class="module-body" style="">
+                    <div>
+                        <button id="btnStopServer" class="btn-danger" ng-click="stopServer()">Stop Server</button>
+                        <button id="btnStartServer" class="btn-success" ng-click="startServer()">Start Server</button>
+
+                        <button id="btnRaisePeak" class="btn-primary" ng-click="raisePeak()">Raise Peak</button>
+
+
+                    </div>
+                <br/>
+                <br/>
+                <div class="module-body">
+                    {{status}}
+                </div>
+
+
+            </div>
+        </section>
+        <section class="module span4" style="height: 570px">
+            <header class="module-header" style="margin:1px">
+                <p style="" class="methodName"> Simulator Output</p>
+
+
+            </header><br>
+            <div>
+                <strong>Experimental Values</strong><br/>
+                {{dataPoint}}<br/>
+                {{timeRemaining}}<br/>
+                {{peakDetected}}
+            </div>
+
+
+        </section>
+
+
+
+
+    </div>
+</div>
+
+
+-->
+<div id="header-wrapper">
+    <div id="header" class="pagecontainer">
+        <!--<div id="logo">-->
+        <!--<h1><a href="./skycolored_files/skycolored.html">Sky-Colored</a></h1>-->
+        <!--</div>-->
+        <div id="menu">
+            <ul>
+                <li><a href="#/home" accesskey="1" title="">home</a></li>
+                <li><a href="#/sale" accesskey="2" title="">Special Sale</a></li>
+                <li><a href="#/feedback" accesskey="2" title="">Feedbacks</a></li>
+                <li><a href="#/faq" accesskey="2" title="">FAQ</a></li>
+                <li><a href="#/contactus" accesskey="2" title="">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="banner" class="pagecontainer">
+        <img src="images/virgelles.jpg" alt="" class="image image-full">
+
+    </div>
+
+</div>
+
+
+
+<div ng-view></div>
+
+<!-- ADDING ALL THE SCRIPTS THAT WE ARE USING FOR THE ANGULAR -->
+
+<!--<link rel="stylesheet" href="css/bootstrap-3.11.min.css">-->
+<!--<link data-require="bootstrap-css@3.1.1" data-semver="3.1.1" rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" />-->
+<link  rel="stylesheet" href="css/bootstrap-3.11.min.css" />
+
+<script src="lib/angular.js"></script>
+<script src="lib/angular-route.js"></script>
+<script data-require="jquery@*" data-semver="2.0.3" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+
+<script src="lib/bootstrap-3.1.1.js"></script>
+<script src="lib/moment.js"></script>
+<!--<script data-require="bootstrap@3.1.1" data-semver="3.1.1" src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>-->
+
+<!--<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.0/angular-route.js"></script>-->
+<!--<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.0/angular-cookies.js"></script>-->
+<script src="app.js"></script>
+<script src="services/dataService.js"></script>
+
+<script src="filters/trimText.js"></script>
+<script src="filters/tidyText.js"></script>
+<script src="filters/prettyDates.js"></script>
+<script src="filters/posNegFilter.js"></script>
+<script src="filters/scoreStarFilter.js"></script>
+
+
+
+<script src="controllers/mainController.js"></script>
+<script src="controllers/homeController.js"></script>
+<script src="controllers/saleController.js"></script>
+<script src="controllers/feedbackController.js"></script>
+<script src="controllers/contactusController.js"></script>
+
+
+<script src="dirPagination.js"></script>
+<script src="directives/productDirective.js"></script>
+<script src="directives/loadingDirective.js"></script>
+
+
+<link rel="stylesheet" href="css/style.css">
+
+<!--<script src="http://maps.google.com/maps/api/js"></script>-->
+<!--<script src="http://rawgit.com/allenhwkim/angularjs-google-maps/master/build/scripts/ng-map.min.js"></script>-->
+
+<script src="http://maps.googleapis.com/maps/api/js?key=&sensor=false&extension=.js" ></script>
+
+<!--<link rel="stylesheet" href="css/bootstrap.min.css">-->
+
+
+
+</body>
+<!--</body>-->
+
+</html>
