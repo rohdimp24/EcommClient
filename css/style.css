@@ -191,3 +191,8 @@ h2 {
 .removeImage{
     display:none;
 }
+
+.loadingBanner{
+    margin-top: 200px;
+    font-size: 2.5em
+}
