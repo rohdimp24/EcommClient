@@ -2,40 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="145221a7-901d-438f-9a42-24e567120f93" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/virgelles.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-file-upload.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/angular-route.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/bootstrap-3.1.1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap-3.11.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/contactus.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/contactusController.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/dataService.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dirPagination.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dirPagination.tpl.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/faq.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/feedback.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/feedbackController.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/home.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/homeController.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/loadingDirective.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/directives/loadingDirective.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/mainController.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/moment.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/filters/posNegFilter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/filters/prettyDates.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/productDesc.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/directives/productDirective.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/saleController.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/filters/scoreStarFilter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/specialSales.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/filters/tidyText.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/filters/trimText.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/virgellesDefault.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/home.html" afterPath="$PROJECT_DIR$/templates/home.html" />
     </list>
     <ignored path="EcommClient.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -97,7 +64,7 @@
       <file leaf-file-name="home.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="10" selection-start="684" selection-end="767" vertical-scroll-proportion="0.20684293" vertical-offset="362" max-vertical-offset="2250">
+            <state line="50" column="24" selection-start="1404" selection-end="1404" vertical-scroll-proportion="0.60342145" vertical-offset="362" max-vertical-offset="2250">
               <folding />
             </state>
           </provider>
@@ -181,7 +148,6 @@
         <option value="$PROJECT_DIR$/templates/loadingDirective.html" />
         <option value="$PROJECT_DIR$/templates/specialSales.html" />
         <option value="$PROJECT_DIR$/directives/loading.js" />
-        <option value="$PROJECT_DIR$/templates/home.html" />
         <option value="$PROJECT_DIR$/controllers/homeController.js" />
         <option value="$PROJECT_DIR$/templates/contactus.html" />
         <option value="$PROJECT_DIR$/services/dataService.js" />
@@ -194,6 +160,7 @@
         <option value="$PROJECT_DIR$/templates/feedback.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/templates/productDesc.html" />
+        <option value="$PROJECT_DIR$/templates/home.html" />
       </list>
     </option>
   </component>
@@ -678,7 +645,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="10" selection-start="684" selection-end="767" vertical-scroll-proportion="0.20684293" vertical-offset="362" max-vertical-offset="2250">
+        <state line="50" column="24" selection-start="1404" selection-end="1404" vertical-scroll-proportion="0.60342145" vertical-offset="362" max-vertical-offset="2250">
           <folding />
         </state>
       </provider>
