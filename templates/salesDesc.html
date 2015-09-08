@@ -1,0 +1,23 @@
+<!--<img src="{{item.thumbnail}}" />-->
+<!--<a href="{{item.itemUrl}}">{{item.title}}</a>-->
+<!--<span>{{item.sellingPrice}}$</span>-->
+<!--<span>{{item.sku}}</span>-->
+<!--<span>{{item.itemId}}</span>-->
+
+<div class="itemTitle">
+    <a href="{{item.itemUrl}}">{{item.title|trimText:70|tidyText}}</a>
+</div>
+
+<!--<div class="imgContainer">-->
+<!--ng-show="getImageSize(item)"-->
+
+<img ng-src="{{item.thumbnail}}" width="100%" max-height="100%" />
+<!--</div>-->
+<span class="discountedPrice">
+    <span class="itemPrice" style="color:#bf0000; text-decoration: line-through">{{item.sellingPrice|currency:"$"}}</span>
+    <img src="images/offer_10.png" width="32px" height="32px" class="discountPrice">
+</span>
+<div class="itemPrice">{{item.sellingPrice|discountFilter:10|currency:"$"}}</div>
+
+    <!--<div class="itemNumber">{{item.sku}}</div>-->
+<!--<div class="itemNumber">{{item.continueDiscontinue}}</div>-->

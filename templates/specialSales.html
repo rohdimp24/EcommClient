@@ -38,9 +38,9 @@
         <div class="panel-body container">
             <!--<ul style="list-style-type: none;">-->
             <div class="row">
-                <div class="col-md-4 itemContainer" dir-paginate="item in items | filter:q | itemsPerPage: pageSize" current-page="currentPage">
+                <div class="col-md-4 salesItemContainer" dir-paginate="item in items | filter:q | itemsPerPage: pageSize" current-page="currentPage">
 
-                    <product-directive item="item"></product-directive>
+                    <sales-directive item="item"></sales-directive>
                 </div>
                 <!--</ul>-->
             </div>

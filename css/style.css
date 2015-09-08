@@ -148,6 +148,8 @@ a.view:hover, a.view:focus {
     padding:5px;
 }
 
+
+
 .itemTitle{
     font-size: 0.8em;
     margin:5px;
@@ -195,4 +197,23 @@ h2 {
 .loadingBanner{
     margin-top: 200px;
     font-size: 2.5em
+}
+
+
+.salesItemContainer
+{
+    border: 1px solid #f5ead9;;
+    width: 274px;
+    height: 270px;
+    margin:5px;
+    padding:5px;
+}
+
+
+
+
+
+.discountPrice{
+    margin-top:-3.0em;
+    mergin-left:-0.8em;
 }
