@@ -15,7 +15,7 @@
 <!--</div>-->
 <span class="discountedPrice">
     <span class="itemPrice" style="color:#bf0000; text-decoration: line-through">{{item.sellingPrice|currency:"$"}}</span>
-    <img src="images/offer_10.png" width="32px" height="32px" class="discountPrice">
+    <img ng-src="images/offer_10.png" width="32px" height="32px" class="discountPrice">
 </span>
 <div class="itemPrice">{{item.sellingPrice|discountFilter:10|currency:"$"}}</div>
 
