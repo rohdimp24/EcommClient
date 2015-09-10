@@ -48,6 +48,9 @@
             max-width: 100%;
             overflow-x: hidden;
         }
+        .active{
+            background-color:#A2969A;
+        }
 
     </style>
     <script type="text/javascript" src="lib/jquery-1.6.2.min.js"></script>
@@ -155,11 +158,11 @@
         <!--</div>-->
         <div id="menu">
             <ul>
-                <li><a href="#/home" accesskey="1" title="">home</a></li>
-                <li><a href="#/sale" accesskey="2" title="">Special Sale</a></li>
-                <li><a href="#/feedback" accesskey="2" title="">Feedbacks</a></li>
-                <li><a href="#/faq" accesskey="2" title="">FAQ</a></li>
-                <li><a href="#/contactus" accesskey="2" title="">Contact Us</a></li>
+                <li onclick=highlightMenu(this)><a href="#/home" accesskey="1" title="">home</a></li>
+                <li onclick=highlightMenu(this)><a href="#/sale" accesskey="2" title="">Special Sale</a></li>
+                <li onclick=highlightMenu(this)><a href="#/feedback" accesskey="2" title="">Feedbacks</a></li>
+                <li onclick=highlightMenu(this)><a href="#/faq" accesskey="2" title="">FAQ</a></li>
+                <li onclick=highlightMenu(this)><a href="#/contactus" accesskey="2" title="">Contact Us</a></li>
             </ul>
         </div>
     </div>
@@ -175,8 +178,8 @@
                 <span class="iconSpanner">
                     <a href="https://www.pinterest.com/mygann/"><img ng-src="images/pinterest.png"></a>
                     <a href="https://plus.google.com/107077562179509505100/posts"><img ng-src="images/google_plus_small.png"></a>
-                    <a href=""><img ng-src="images/facebook.png"></a>
-                    <a href=""><img ng-src="images/twitter.png"></a>
+                    <a href="https://www.facebook.com/pages/Decorative-SeaShells-and-More-by-MyGann/195028323895199?ref=hl"><img ng-src="images/facebook.png"></a>
+                    <a href="http://twitter.com/myganns"><img ng-src="images/twitter.png"></a>
                     <a href="http://www.amazon.com/s?marketplaceID=ATVPDKIKX0DER&me=A3L7GADHT46N68&merchant=A3L7GADHT46N68&redirect=true"><img ng-src="images/amazon.png"></a>
                     <a href="https://www.etsy.com/shop/MyGann"><img ng-src="images/etsy.png"></a>
                 </span>
@@ -250,6 +253,31 @@
 <script src="http://maps.googleapis.com/maps/api/js?key=&sensor=false&extension=.js" ></script>
 
 <!--<link rel="stylesheet" href="css/bootstrap.min.css">-->
+<script>
+    // this will get the full URL at the address bar
+    var url = window.location.href;
+
+    // passes on every "a" tag
+    $("#menu a").each(function() {
+        // checks if its the same on the address bar
+        if(url == (this.href)) {
+            $(this).closest("li").addClass("active");
+        }
+    });
+
+    function highlightMenu(obj)
+    {
+        //first remove the background color form each of the links
+        $("#menu li").each(function(){
+            $(this).removeClass("active");
+
+        });
+
+        $(obj).addClass("active");
+
+    }
+
+</script>
 
 
 
