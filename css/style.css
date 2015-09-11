@@ -1,5 +1,6 @@
 #content-container {
     margin-left: 10px;
+
 }
 
 a.view {
@@ -221,4 +222,8 @@ h2 {
 .iconSpanner{
     margin-right:40px;
     float:right;
+}
+
+.searchBox{
+    border:1px solid #000000;
 }
