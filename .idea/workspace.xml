@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="145221a7-901d-438f-9a42-24e567120f93" name="Default" comment="removed the page1 label&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/home.html" afterPath="$PROJECT_DIR$/templates/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/specialSales.html" afterPath="$PROJECT_DIR$/templates/specialSales.html" />
     </list>
     <ignored path="EcommClient.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,20 +25,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="specialSales.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="specialSales.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/specialSales.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="55" selection-start="1233" selection-end="1251" vertical-scroll-proportion="-16.166666" vertical-offset="212" max-vertical-offset="900">
-              <folding />
+            <state line="32" column="14" selection-start="679" selection-end="962" vertical-scroll-proportion="0.37013996" vertical-offset="242" max-vertical-offset="945">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#span#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#span#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
+      <file leaf-file-name="salesDesc.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/salesDesc.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="228" column="1" selection-start="3541" selection-end="3584" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3510">
-              <folding />
+            <state line="23" column="0" selection-start="914" selection-end="914" vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="435">
+              <folding>
+                <element signature="n#style#0;n#span#0;n#span#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -64,13 +70,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="58" selection-start="1085" selection-end="1085" vertical-scroll-proportion="0.67651635" vertical-offset="195" max-vertical-offset="2310">
+            <state line="44" column="10" selection-start="841" selection-end="1118" vertical-scroll-proportion="-16.875" vertical-offset="255" max-vertical-offset="2310">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#0;n#span#0;n#div#2;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#span#0;n#div#2;n#div#0;n#div#1;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -166,12 +173,12 @@
         <option value="$PROJECT_DIR$/templates/productDesc.html" />
         <option value="$PROJECT_DIR$/templates/feedback.html" />
         <option value="$PROJECT_DIR$/directives/salesDirective.js" />
-        <option value="$PROJECT_DIR$/templates/specialSales.html" />
         <option value="$PROJECT_DIR$/filters/discountFilter.js" />
         <option value="$PROJECT_DIR$/templates/salesDesc.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/templates/home.html" />
+        <option value="$PROJECT_DIR$/templates/specialSales.html" />
       </list>
     </option>
   </component>
@@ -480,6 +487,7 @@
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#span#0;n#div#2;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#span#0;n#div#2;n#div#0;n#div#1;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -711,22 +719,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/specialSales.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="55" selection-start="1233" selection-end="1251" vertical-scroll-proportion="-16.166666" vertical-offset="212" max-vertical-offset="900">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/salesDesc.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="914" selection-end="914" vertical-scroll-proportion="0.5259146" vertical-offset="0" max-vertical-offset="656">
-          <folding>
-            <element signature="n#style#0;n#span#0;n#span#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="228" column="1" selection-start="3541" selection-end="3584" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3510">
@@ -746,10 +738,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="58" selection-start="1085" selection-end="1085" vertical-scroll-proportion="0.67651635" vertical-offset="195" max-vertical-offset="2310">
+        <state line="44" column="10" selection-start="841" selection-end="1118" vertical-scroll-proportion="-16.875" vertical-offset="255" max-vertical-offset="2310">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#span#0;n#div#2;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#span#0;n#div#2;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/salesDesc.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="914" selection-end="914" vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="435">
+          <folding>
+            <element signature="n#style#0;n#span#0;n#span#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/specialSales.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="14" selection-start="679" selection-end="962" vertical-scroll-proportion="0.37013996" vertical-offset="242" max-vertical-offset="945">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#span#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#span#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
