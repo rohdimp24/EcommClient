@@ -17,7 +17,7 @@
             dataServiceFactory.getFeedbacks()
                 .then(
                 function(event){
-                    $scope.feedbacks=event.data;
+                    $scope.feedbacks=event;
                     $scope.loading=false;
 
                 },

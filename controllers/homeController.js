@@ -17,19 +17,20 @@
         $scope.getProducts=function(){
             $scope.loading=true;
 
+            //if the call is a
+
             dataServiceFactory.getProducts()
                 .then(
                 function(event){
-                    $scope.items=event.data;
-                    var totalItems=event.data.length;
-                    var numPages=Math.ceil(event.data.length/10);
-                    $scope.pages = [];
-
-                    for (var i = 1; i <= numPages; i++) {
-                        $scope.pages.push(i);
-                    }
+                    $scope.items=event;
+//                    var totalItems=event.data.length;
+//                    var numPages=Math.ceil(event.data.length/10);
+//                    $scope.pages = [];
+//
+//                    for (var i = 1; i <= numPages; i++) {
+//                        $scope.pages.push(i);
+//                    }
                     $scope.loading=false;
-
 
                 },
 
