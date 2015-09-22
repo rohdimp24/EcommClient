@@ -13,6 +13,8 @@
             dataCache = $cacheFactory('dataCache');
         }
 
+        //var dataCache=localStorage;
+
 
         function getProducts(){
             var deferred = $q.defer();
@@ -119,19 +121,14 @@
 
         function getTestProducts(){
             var deferred = $q.defer();
+            var dataCache=localStorage;
+            var topSellingItemsFromCache = localStorage.key('topSellingItems');
 
-            var dataCache = $cacheFactory.get('topSellingCache');
-
-            if (!dataCache) {
-                dataCache = $cacheFactory('topSellingCache');
-            }
-
-            var topSellingItemsFromCache = dataCache.get('topSellingItems');
 
             if (topSellingItemsFromCache) {
 
                 console.log('returning topSellingItemsFromCache from cache');
-                deferred.resolve(topSellingItemsFromCache);
+                deferred.resolve(localStorage.getItem(topSellingItemsFromCache));
 
             }
             else{
@@ -139,7 +136,7 @@
                 .success(function(response){
                     console.log("get unsold products");
 
-                    dataCache.put('topSellingItems',response);
+                    dataCache.setItem('topSellingItems',angular.toJson(response));
                     deferred.resolve(response);
                 })
                 .error(function(reason){
