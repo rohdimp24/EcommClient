@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="145221a7-901d-438f-9a42-24e567120f93" name="Default" comment="removed the page1 label&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/directives/paypalDirective.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/paypalTemplate.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/salesDesc.html" afterPath="$PROJECT_DIR$/templates/salesDesc.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/specialSales.html" afterPath="$PROJECT_DIR$/templates/specialSales.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="EcommClient.iws" />
@@ -35,7 +30,7 @@
       <file leaf-file-name="specialSales.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/specialSales.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="55" selection-start="1385" selection-end="1403" vertical-scroll-proportion="-7.375" vertical-offset="468" max-vertical-offset="960">
+            <state line="46" column="69" selection-start="1586" selection-end="1636" vertical-scroll-proportion="-9.25" vertical-offset="468" max-vertical-offset="960">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#0;n#span#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
@@ -67,15 +62,6 @@
         <entry file="file://$PROJECT_DIR$/templates/loadingDirective.html">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="270">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="saleController.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/saleController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="38" selection-start="630" selection-end="630" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1380">
               <folding />
             </state>
           </provider>
@@ -119,13 +105,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="salesDesc.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="salesDesc.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/salesDesc.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="35" selection-start="204" selection-end="204" vertical-scroll-proportion="0.14457831" vertical-offset="0" max-vertical-offset="420">
+            <state line="5" column="0" selection-start="205" selection-end="205" vertical-scroll-proportion="-2.5" vertical-offset="15" max-vertical-offset="435">
               <folding>
                 <element signature="n#style#0;n#span#0;n#span#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="182" column="19" selection-start="6743" selection-end="6743" vertical-scroll-proportion="0.14925373" vertical-offset="2670" max-vertical-offset="4440">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -178,11 +173,11 @@
         <option value="$PROJECT_DIR$/controllers/feedbackController.js" />
         <option value="$PROJECT_DIR$/services/dataService.js" />
         <option value="$PROJECT_DIR$/directives/paypalDirective.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/templates/specialSales.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/templates/paypalTemplate.html" />
         <option value="$PROJECT_DIR$/templates/salesDesc.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -747,28 +742,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="248" column="30" selection-start="9797" selection-end="9797" vertical-scroll-proportion="-21.791666" vertical-offset="3197" max-vertical-offset="4440">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/directives/paypalDirective.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="49" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0" vertical-offset="55" max-vertical-offset="1545">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/specialSales.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="55" selection-start="1385" selection-end="1403" vertical-scroll-proportion="-7.375" vertical-offset="468" max-vertical-offset="960">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#span#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#span#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -788,10 +765,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/salesDesc.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="35" selection-start="204" selection-end="204" vertical-scroll-proportion="0.14457831" vertical-offset="0" max-vertical-offset="420">
+        <state line="5" column="0" selection-start="205" selection-end="205" vertical-scroll-proportion="-2.5" vertical-offset="15" max-vertical-offset="435">
           <folding>
             <element signature="n#style#0;n#span#0;n#span#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/specialSales.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="69" selection-start="1586" selection-end="1636" vertical-scroll-proportion="-9.25" vertical-offset="468" max-vertical-offset="960">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#span#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#span#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="182" column="19" selection-start="6743" selection-end="6743" vertical-scroll-proportion="0.14925373" vertical-offset="2670" max-vertical-offset="4440">
+          <folding />
         </state>
       </provider>
     </entry>

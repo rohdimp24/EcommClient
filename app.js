@@ -33,6 +33,11 @@
                 templateUrl : 'templates/productDetailsTemplate.html'
 //                controller : 'productsDetailsController'
             })
+            .when('/test', {
+                templateUrl : 'templates/test.html',
+                controller : 'testController'
+
+            })
             .otherwise({
                 redirectTo : 'home'
             });
