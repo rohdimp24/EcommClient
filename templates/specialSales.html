@@ -44,6 +44,7 @@
                 <div class="col-md-4 salesItemContainer" dir-paginate="item in items | filter:q | itemsPerPage: pageSize" current-page="currentPage">
 
                     <sales-directive item="item"></sales-directive>
+                    <paypal-directive item="item"></paypal-directive>
                 </div>
                 <!--</ul>-->
             </div>
